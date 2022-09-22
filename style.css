@@ -1,0 +1,481 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.top-bar {
+    display: flex;
+}
+
+.icon-menu {
+    background-image: url(images/Group\ 5.svg);
+    background-repeat: no-repeat;
+}
+
+/* .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+} */
+
+.header {
+    position: absolute; /*поверх сексии */
+    width: 100%;
+}
+
+.header .container {
+    padding-top: 40px;
+    padding-bottom: 0px;
+}
+
+.gradient-bg {
+    background: linear-gradient(101.05deg, rgba(255, 138, 0, 0.2) 0%, #FFCFD2 99.01%);
+
+}
+
+.gradient-bg-center {
+    background: #FFE176;
+}
+
+.gradient-bg-center::after {
+    content: '';
+    background: #FFE176;
+    border-radius: 0px 0px 90px 90px;
+}
+
+.review-section {
+    /* justify-items: center; */
+    width: 100%;
+}
+
+.container {
+    width: 1204px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section1-container {
+    display: flex;
+    padding-top: 169px;
+    padding-bottom: 132px;
+}
+
+.text1 {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 59px;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+    margin-right: 185px;
+
+    color: #000000;
+}
+
+.text2 {
+    font-family: 'Roboto Flex';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    margin-bottom: 14px;
+    margin-right: 242px;
+
+    color: #000000;
+}
+
+.text3 {
+    font-family: 'Roboto Flex';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 38px;
+    margin-right: 126px;
+
+    /* or 150% */
+
+    color: #000000;
+}
+
+.header-image {
+    margin-top: -70px;
+}
+
+.button {
+    width: 204px;
+    height: 50px;
+    left: 264px;
+    top: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #FF8A00;
+    border-radius: 50px;
+
+}
+
+.button-link {
+    font-family: 'Roboto Flex';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height, or 120% */
+    color: #FFFFFF;
+}
+
+.title {
+    padding-top: 103px;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+.days-all {
+    padding-right: 87px;
+
+}
+
+.hours-all {
+    padding-right: 92px;
+}
+
+.minutes-all {
+    padding-right: 92px;
+}
+
+.days-number {
+
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 150.4%;
+    /* or 90px */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+.days {
+    margin-top: -15px;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36.1px;
+    box-align: center;
+    /* or 90px */
+    
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #000000;
+}
+
+
+.hours-number {
+
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 150.4%;
+    /* or 90px */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+.hours {
+    margin-top: -15px;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36.1px;
+    box-align: center;
+    /* or 90px */
+    
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #000000;
+}
+
+.minutes-number {
+
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 150.4%;
+    /* or 90px */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+.minutes {
+    margin-top: -15px;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36.1px;
+    box-align: center;
+    /* or 90px */
+    
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #000000;
+}
+
+.seconds-number {
+
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 150.4%;
+    /* or 90px */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+.seconds {
+    margin-top: -15px;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36.1px;
+    box-align: center;
+    /* or 90px */
+    
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #000000;
+}
+
+.date {
+    margin-top: 32px;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 150.4%;
+    /* identical to box height, or 38px */
+    
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #FF2E00;
+}
+
+.time {
+    display: flex;
+    justify-content: center;
+    margin-top: 21px;
+}
+
+.button1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 204px;
+    height: 50px;
+    left: 762px;
+    top: 1253px;
+    background: #FF8A00;
+    border-radius: 50px;
+}
+
+.button-container {
+    display: flex;
+    padding-top: 77px;
+    padding-right: 71px;
+
+}
+
+.button-container-center {
+    display: flex;
+    justify-content: center;
+    padding-top: 28px;
+}
+
+.bottom-container {
+
+    width: 1200px;
+    height: 203px;
+    display: flex;
+    background: #FFE176;
+    border-radius: 20px;
+    margin-top: 81px;
+    justify-items: center;
+}
+
+.copyright {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    font-family: 'Roboto Flex';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    color: #000000;
+    opacity: 0.5;
+
+    padding-top: 41px;
+    padding-bottom: 56px;
+}
+
+.gradient-radius {
+    background: #FFE176;
+    border-radius: 0px 0px 90px 90px;
+}
+
+.review-title-top {
+    padding-top: 76px;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #000000;
+}
+
+.review-title {
+    font-family: 'Roboto Flex';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+
+    color: #000000;
+}
+
+.review-all {
+    display: flex;
+    padding-top: 58px;
+    justify-content: center;
+}
+
+.review-text {
+    padding-bottom: 35px;
+    justify-content: center;
+    font-family: 'Roboto Serif';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+    /* or 219% */
+
+
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.padding-card {
+    padding-left: 15px;
+}
+
+.review-card {
+    width: 620px;
+    padding-right: 109px;
+}
+
+.stars {
+    padding-top: 14px;
+    padding-bottom: 20px;
+}
+
+.images-names {
+    display: flex;
+    align-items: center;
+}
+
+.customer-name {
+    font-family: 'Roboto Flex';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #000000;
+}
+
+.customer-country {
+    font-family: 'Roboto Flex';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+
+    color: #000000;
+}
+
+.customer-all {
+    padding-left: 19px;
+}
+
+.title-coupon-bottom {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 59px;
+    text-transform: uppercase;
+
+    text-align: left;
+    padding-left: 46px;
+    padding-top: 45px;
+
+    color: #000000;
+}
